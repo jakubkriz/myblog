@@ -50,7 +50,7 @@ gem 'web-console', '~> 2.0'
 gem 'exception_notification'
 gem 'better_errors'
 gem 'devise'
-gem 'letter_opener'
+gem 'letter_opener', :group => :development
 gem 'cancancan'
 gem 'rolify'
 gem 'paperclip'
@@ -65,6 +65,6 @@ gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-boot
 # PRY
 gem 'pry'
 
-gem 'slim'
+gem 'slim-rails'
 
 ruby '2.2.0'
