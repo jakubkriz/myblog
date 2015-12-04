@@ -4,8 +4,10 @@ one:
   author: MyString
   title: MyString
   body: MyText
+  users_id: 
 
 two:
   author: MyString
   title: MyString
   body: MyText
+  users_id: 

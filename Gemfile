@@ -53,7 +53,7 @@ gem 'devise'
 gem 'letter_opener', :group => :development
 gem 'cancancan'
 gem 'rolify'
-gem 'paperclip'
+gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 gem 'rails_admin'
 # HEROKU
 gem 'rails_12factor', group: :production
