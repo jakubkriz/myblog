@@ -1,16 +1,14 @@
 Rails.application.routes.draw do
   root 'posts#index'
 
-devise_for :users, :controllers => {:confirmations => "confirmations", :registrations => "registrations" } do
-    match "/confirm_account" => "confirmations#confirm_account"
-end
+  # devise_for :users, :controllers => {:confirmations => "confirmations" } do
+  #     match "/confirm_account" => "confirmations#confirm_account"
+  # end
 
+  devise_for :users
   resources :posts
 
-  # map.user_confirm 'confirm/:confirmation_token',
-  #   :controller => 'confirmations', :action => 'show'
-
-  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.production?
+  mount LetterOpenerWeb::Engine, at: "/emails" if Rails.env.production?
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
