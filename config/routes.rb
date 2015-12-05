@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   resources :posts
 
+  map.user_confirm 'confirm/:confirmation_token',
+    :controller => 'confirmations', :action => 'show'
+
   mount LetterOpenerWeb::Engine, at: "/letter_opener"
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -40,7 +40,7 @@ html lang="en"
                 li= link_to 'Logout', destroy_user_session_path, :method => :delete
             - elsif Rails.env.production?
               ul.nav.navbar-nav
-                li= link_to 'Confirmation emails', '/letter_opener', method: :get
+                li= link_to 'Sent emails', '/letter_opener', method: :get
     .container
       .row
         .col-lg-9
