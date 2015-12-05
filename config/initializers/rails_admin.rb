@@ -1,5 +1,10 @@
 RailsAdmin.config do |config|
 
+  config.model 'User' do
+    # ...
+  end
+
+
   ### Popular gems integration
 
   ## == Devise ==
@@ -9,7 +14,7 @@ RailsAdmin.config do |config|
   config.current_user_method(&:current_user)
 
   ## == Cancan ==
-  # config.authorize_with :cancan
+  config.authorize_with :cancan
 
   ## == Pundit ==
   # config.authorize_with :pundit
