@@ -56,6 +56,7 @@ gem 'cancancan'
 gem 'rolify'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 gem 'rails_admin'
+gem 'rolify'
 # HEROKU
 gem 'rails_12factor', group: :production
 gem 'rmagick', '~> 2.15.4', group: :production

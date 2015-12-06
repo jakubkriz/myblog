@@ -1,6 +1,8 @@
 class Post < ActiveRecord::Base
   belongs_to :users
 
+  resourcify
+
   rails_admin do
     configure :user do
       label 'Author of the post: '
