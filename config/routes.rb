@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # end
 
   devise_for :users
-  resources :posts
+  resources :posts, except: [:show]
 
   mount LetterOpenerWeb::Engine, at: "/emails" if Rails.env.production?
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
