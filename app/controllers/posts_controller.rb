@@ -9,11 +9,6 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
-    # makes the user with email admin@myblog.com to be an administrator
-    if user_signed_in? and current_user.email == "admin@myblog.com"
-      # do it only for the first time
-      current_user.add_role :admin unless current_user.has_role? :admin
-    end
   end
 
   # GET /posts/1
