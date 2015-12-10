@@ -1,7 +1,7 @@
 = \Application
 
-{<a href="http://fierce-plains-8000.herokuapp.com/">myblog</a>)}
-url :: http://fierce-plains-8000.herokuapp.com/
+{myblog}[http://fierce-plains-8000.herokuapp.com/]
+* url :: http://fierce-plains-8000.herokuapp.com/
 
 == Login Credentials for Administrator
 email :: admin@myblog.com
