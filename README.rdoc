@@ -1,11 +1,11 @@
 = \Application
 
-Link to the application -> {myblog}[http://fierce-plains-8000.herokuapp.com/]
-*URL:* <url>http://fierce-plains-8000.herokuapp.com/</url>
+*Link to the application* -> {myblog}[http://fierce-plains-8000.herokuapp.com/]
+,*URL:* <code>http://fierce-plains-8000.herokuapp.com/</code>
 
 == Login Credentials for Administrator
-email :: admin@myblog.com
-password :: fullAccess1
+*Email* :: admin@myblog.com
+*Password* :: fullAccess1
 
 == Author
 
