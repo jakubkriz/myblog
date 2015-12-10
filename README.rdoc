@@ -1,11 +1,13 @@
-## Application
+= \Application
 
-[myblog](http://fierce-plains-8000.herokuapp.com/), url: http://fierce-plains-8000.herokuapp.com/
+{<a href="http://fierce-plains-8000.herokuapp.com/">myblog</a>)
+url :: http://fierce-plains-8000.herokuapp.com/
 
-## Login Credentials for Administrator
-email: admin@myblog.com
-password: fullAccess1
+== Login Credentials for Administrator
+email :: admin@myblog.com
+password :: fullAccess1
 
-## Author
+== Author
 
 Jakub Kříž, 410023
+
